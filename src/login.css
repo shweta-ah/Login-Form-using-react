@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login form {
+  min-width: 300px;
+  box-shadow: 0px 0px 10px rgb(227, 227, 227);
+  background: white;
+  padding: 2%;
+  border-radius: 20px;
+}
+
+.login form input {
+  all: unset;
+  border: 1px solid;
+  padding: 10px 15px;
+  width: 90%;
+  border-radius: 5px;
+}
+
+.login form button {
+  all: unset;
+  text-align: center;
+  color: white;
+  padding: 10px 15px;
+  width: 300px;
+  border-radius: 5px;
+  background: rgb(108, 187, 108);
+  &:hover {
+    background: darkgreen;
+    cursor: pointer;
+  }
+}

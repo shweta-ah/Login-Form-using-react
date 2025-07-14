@@ -1,8 +1,49 @@
 .App {
   text-align: center;
+  background: pink;
 }
-
-.App-logo {
+.btn1 {
+  background: rgb(160, 90, 102);
+  border-radius: 2px;
+  color: white;
+  padding: 20px 40px;
+  /* gap: 10px; */
+  margin: 10px;
+}
+.btn2 {
+  background: rgb(160, 90, 102);
+  border-radius: 2px;
+  color: white;
+  padding: 20px 40px;
+  /* gap: 10px; */
+  margin: 10px;
+}
+.inputByUser {
+  padding: 20px 20px;
+  margin: 20px 20px;
+  /* width: 100px; */
+  justify-content: center;
+  text-align: center;
+  text: bold;
+}
+.forgotPassword {
+  color: rgb(97, 35, 45);
+}
+.btn3 {
+  background: rgb(160, 90, 102);
+  border-radius: 2px;
+  color: white;
+  padding: 20px 180px;
+  /* gap: 10px; */
+  margin: 10px;
+}
+.confirm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(145, 76, 88);
+}
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +76,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
